@@ -19,4 +19,10 @@ def divide(a, b):
         raise ZeroDivisionError("Cannot divide by zero")
     return a / b"# temp" 
 "# fix" 
-"# done" 
+"# done"
+
+def modulo(a, b):
+    """Returns remainder of a divided by b."""
+    if b == 0:
+        raise ZeroDivisionError("Cannot modulo by zero")
+    return a % b
